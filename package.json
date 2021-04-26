@@ -1,0 +1,17 @@
+{
+  "name": "feature-flag-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "list-unused-feature-flags-in-code": "./list-unused-feature-flags-in-code.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "launchdarkly-node-server-sdk": "^5.14.3"
+  }
+}
